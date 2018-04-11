@@ -1,6 +1,8 @@
 # Decision-Tree
 
 # Importing the required packages
+
+
 import numpy as np
 import pandas as pd
 from sklearn.metrics import confusion_matrix
@@ -16,7 +18,7 @@ def importdata():
 'databases/balance-scale/balance-scale.data',
     sep= ',', header = None)
      
-    # Printing the dataswet shape
+    # Printing the dataset shape
     print ("Dataset Lenght: ", len(balance_data))
     print ("Dataset Shape: ", balance_data.shape)
      
